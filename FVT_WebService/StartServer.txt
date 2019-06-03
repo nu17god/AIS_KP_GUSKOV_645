@@ -1,0 +1,2 @@
+cd C:\Study\Семестр_6\АИС\КП\FVT_WebService\Web &
+node C:\Study\Семестр_6\АИС\КП\FVT_WebService\node_modules\http-server\bin\http-server

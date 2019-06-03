@@ -1,0 +1,92 @@
+body, input, textarea, select 
+{
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+body
+{
+    width: 100%;
+    margin: 0;
+    line-height: 1.6em;
+    color: rgb(71, 71, 71);
+    min-width: 1150px;
+    background-color: rgb(225, 242, 248);
+}
+
+.Menu
+{
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    background-color: rgba(170, 208, 243, 0.562);
+}
+
+.MainMenu
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: 1px solid #e5e5e5;
+    background-color: rgba(170, 208, 243, 0.562);
+}
+
+.MainMenu > li 
+{
+    position: relative;
+    display: inline-block;
+    margin-right: -4px;
+}
+
+.MainMenu a
+{
+    text-decoration-line: none;
+    display: block;
+    height: 30px;
+    font-size: 20px;
+    margin-left: -1px;
+    padding: 8px 10px;
+    color: #007dbb;
+    border-left: 2px solid #e5e5e5;
+}
+
+.MainMenuAbout
+{
+    border-right: 2px solid #e5e5e5;
+}
+
+.MainMenu a:hover
+{
+    background-color: white;
+    color: #0088cc;
+}
+
+
+.Submenu
+{
+    position: absolute;
+    left: 0px;
+    display: none;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.Submenu a 
+{
+    background-color: #ffffff;
+    margin-bottom: -1px;
+    border: 1px solid #e5e5e5;
+    width: 100%;
+}
+
+.Submenu a:hover
+{
+    background-color:#0088cc ;
+    color: white;
+}
+  
+.MainMenu > li:hover .Submenu
+{
+    display: block;
+}
